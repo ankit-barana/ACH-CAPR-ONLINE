@@ -1,4 +1,4 @@
-# Documentation for the VCH_APP developed by William M. Smith
+# Documentation for the VCH_APP
 
 # Installation and serving
 Download all source files. Be sure to have Node.js installed along with node package manager (npm). Navigate to the folder via Bash or alternative shell and run `npm install` to get all of the modules. 
@@ -83,7 +83,7 @@ import { sumVector, QuestPdf, QuestRecompute, QuestCreate, QuestMean, QuestSd, Q
 
 ```
 # QUEST 
-Quest will take the user input and then calculate the next contrast to be outputted for the user to respond to. This is done by creating `q` objects that contain a set of parameters set by the administrators. These `q` objects will then be recomputed and their Quantiles taken for use with the next trial. More information can be found in the PsychToolbox package for Matlab. The JavaScript translation was done by William Smith and was tested to be accurate to 14+ decimal places with the Matlab equivalent. 
+Quest will take the user input and then calculate the next contrast to be outputted for the user to respond to. This is done by creating `q` objects that contain a set of parameters set by the administrators. These `q` objects will then be recomputed and their Quantiles taken for use with the next trial. More information can be found in the PsychToolbox package for Matlab. The JavaScript translation was tested to be accurate to 14+ decimal places with the Matlab equivalent. 
 
 # Basic Components 
 The components have listeners that check if the `Q` or `E` key were pressed as well as keys `1-5`. Q is 'YES' and E is 'NO'. 
